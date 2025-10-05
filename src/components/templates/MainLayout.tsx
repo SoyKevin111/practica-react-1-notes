@@ -11,6 +11,7 @@ export const MainLayout = ({ children }: MainLayoutProps) => {
         <h1 className="text-lg font-bold">Gestor de Tareas</h1>
         <nav className="flex gap-4">
           <Link to="/home">Home</Link>
+          <Link to="/notes">Notes</Link>
           <Link to="/about">About</Link>
         </nav>
       </header>
