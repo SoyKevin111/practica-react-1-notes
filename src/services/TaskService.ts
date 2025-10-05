@@ -1,13 +1,7 @@
 import axios from "axios";
+import type { Task } from "../types/Task";
 
 const API_URL = "http://localhost:3000/tasks";
-
-export interface Task {
-  id: number;
-  title: string;
-  description: string;
-  completed: boolean;
-}
 
 export const getTasks = async () => {
   const response = await axios.get<Task[]>(API_URL);
@@ -19,7 +13,8 @@ export const getTaskById = async (id: number) => {
   return response.data;
 };
 
-export const createTask = async (task: Omit<Task, "id">) => {
+export const createTask = async (task: Task) => {
+  task.id = Math.floor(Math.random() * (999 - 100 + 1)) + 100;
   const response = await axios.post<Task>(API_URL, task);
   return response.data;
 };

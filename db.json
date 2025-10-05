@@ -1,14 +1,20 @@
 {
   "tasks": [
     {
-      "id": "1",
+      "id": 1,
       "title": "Aprender React",
       "description": "Repasar hooks y componentes funcionales",
       "completed": false
     },
     {
-      "id": "3",
+      "id": 3,
       "title": "kevin222",
+      "description": "",
+      "completed": false
+    },
+    {
+      "id": 870,
+      "title": "nueva nota papa",
       "description": "",
       "completed": false
     }

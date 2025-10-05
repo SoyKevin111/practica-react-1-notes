@@ -2,7 +2,8 @@ import React, { useCallback } from "react";
 import { Link } from "react-router-dom";
 import { Checkbox } from "../../atoms/Checkbox/Checkbox";
 import { Button } from "../../atoms/Button/Button";
-import type { Task } from "../../../services/TaskService";
+import type { Task } from "../../../types/Task";
+
 
 interface TaskItemProps {
     task: Task;

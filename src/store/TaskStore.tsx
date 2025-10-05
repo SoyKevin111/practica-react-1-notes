@@ -1,11 +1,12 @@
 import { create } from "zustand";
-import { createTask, deleteTask, getTasks, updateTask, type Task } from "../services/TaskService";
+import { createTask, deleteTask, getTasks, updateTask } from "../services/TaskService";
+import type { Task } from "../types/Task";
 
 interface TaskState {
   tasks: Task[];
   selectedTask: Task | null;
   fetchTasks: () => Promise<void>;
-  addTask: (task: Omit<Task, "id">) => Promise<void>;
+  addTask: (task: Task) => Promise<void>;
   editTask: (task: Task) => Promise<void>;
   removeTask: (id: number) => Promise<void>;
   setSelectedTask: (task: Task | null) => void;

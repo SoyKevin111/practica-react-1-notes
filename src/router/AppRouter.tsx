@@ -2,7 +2,8 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import About from "../pages/about/About";
 import TaskDetail from "../pages/taskDetail/TaskDetail";
 import Home from "../pages/home/Home";
-import Notes from "../pages/notes/Notes";
+import Notes from "../pages/task/Task";
+import Category from "../pages/category/Category";
 
 export const AppRouter = () => {
   return (
@@ -11,6 +12,7 @@ export const AppRouter = () => {
         <Route path="/" element={<Navigate to="/home" replace />} />
         <Route path="/home" element={<Home />} />
         <Route path="/notes" element={<Notes />} />
+        <Route path="/category" element={<Category />} />
         <Route path="/about" element={<About />} />
         <Route path="/tasks/:id" element={<TaskDetail />} />
       </Routes>

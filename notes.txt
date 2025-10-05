@@ -5,3 +5,19 @@ npx json-server --watch db.json --port 3000
 npm install clsx
 
 
+--------Desarrollo----------
+
+max 3 categorias por notas
+Estado para categorias, gestion
+
+Categoria{
+    id,
+    name,
+    description
+}
+
+-interface
+-store
+-service
+-page
+-component

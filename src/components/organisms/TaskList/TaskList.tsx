@@ -1,5 +1,6 @@
+import type { Task } from "../../../types/Task";
 import { TaskItem } from "../../molecules/TaskItem/TaskItem";
-import type { Task } from "../../../services/TaskService";
+
 
 interface TaskListProps {
     tasks: Task[];
