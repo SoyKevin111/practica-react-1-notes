@@ -9,4 +9,4 @@ const About = () => {
   );
 }
 
-export default About;
+export default About; //default al ser una pagina

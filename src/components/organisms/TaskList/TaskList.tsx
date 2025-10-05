@@ -7,7 +7,7 @@ interface TaskListProps {
     onDelete: (id: number) => void;
 }
 
-export function TaskList({ tasks, onToggleComplete, onDelete }: TaskListProps) {
+export const TaskList = ({ tasks, onToggleComplete, onDelete }: TaskListProps) => {
     return (
         <div>
             {tasks.map((task) => (

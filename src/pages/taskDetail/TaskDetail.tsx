@@ -49,5 +49,5 @@ const TaskDetail = () => {
   );
 }
 
-export default TaskDetail;
+export default TaskDetail; //default al ser una pagina
 
