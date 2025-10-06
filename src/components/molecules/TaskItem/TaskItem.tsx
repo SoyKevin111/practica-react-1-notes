@@ -11,8 +11,9 @@ interface TaskItemProps {
     onDelete: (id: number) => void;
 }
 
-function TaskItemComponent({ task, onToggleComplete, onDelete }: TaskItemProps) {
-    const handleToggle = useCallback(() =>
+const TaskItemComponent = ({ task, onToggleComplete, onDelete }: TaskItemProps) => {
+
+    const handleToggle = useCallback(() => //memoriza funcion entre renders
         onToggleComplete(task),
         [task, onToggleComplete]);
     const handleDelete = useCallback(() =>

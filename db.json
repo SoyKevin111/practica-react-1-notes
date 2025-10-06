@@ -4,31 +4,112 @@
       "id": 1,
       "title": "Aprender React",
       "description": "Repasar hooks y componentes funcionales",
-      "completed": false
+      "completed": false,
+      "categories": [
+        {
+          "id": 10,
+          "name": "Tecnología",
+          "description": "apps, gadgets y temas tech que me interesan."
+        },
+        {
+          "id": 11,
+          "name": "Lecturas",
+          "description": "libros por leer o frases que me gustaron."
+        }
+      ]
     },
     {
       "id": 3,
       "title": "kevin222",
       "description": "",
-      "completed": false
+      "completed": false,
+      "categories": [
+        {
+          "id": 7,
+          "name": "Ideas Random",
+          "description": "notas que se me ocurren en cualquier momento."
+        },
+        {
+          "id": 8,
+          "name": "Finanzas",
+          "description": "gastos, pagos y recordatorios de dinero."
+        }
+      ]
     },
     {
       "id": 870,
       "title": "nueva nota papa",
       "description": "",
-      "completed": false
+      "completed": false,
+      "categories": [
+        {
+          "id": 4,
+          "name": "Viajes",
+          "description": "cosas que anotar antes, durante o después de viajar."
+        },
+        {
+          "id": 12,
+          "name": "Casa",
+          "description": "cosas por arreglar o comprar para el hogar."
+        }
+      ]
     }
   ],
   "categories": [
     {
-      "id": 1,
-      "name": "Escuela",
-      "description": "notas reservadas para la escuela."
+      "id": 4,
+      "name": "Viajes",
+      "description": "cosas que anotar antes, durante o después de viajar."
     },
     {
-      "id": 2,
-      "name": "Escuela",
-      "description": "notas reservadas para la escuela."
+      "id": 5,
+      "name": "Cocina",
+      "description": "recetas, ideas de comidas o ingredientes por probar."
+    },
+    {
+      "id": 6,
+      "name": "Series y Pelis",
+      "description": "todo lo que quiero ver o ya vi."
+    },
+    {
+      "id": 7,
+      "name": "Ideas Random",
+      "description": "notas que se me ocurren en cualquier momento."
+    },
+    {
+      "id": 8,
+      "name": "Finanzas",
+      "description": "gastos, pagos y recordatorios de dinero."
+    },
+    {
+      "id": 9,
+      "name": "Salud Mental",
+      "description": "reflexiones, pensamientos o cosas que me ayudan."
+    },
+    {
+      "id": 10,
+      "name": "Tecnología",
+      "description": "apps, gadgets y temas tech que me interesan."
+    },
+    {
+      "id": 11,
+      "name": "Lecturas",
+      "description": "libros por leer o frases que me gustaron."
+    },
+    {
+      "id": 12,
+      "name": "Casa",
+      "description": "cosas por arreglar o comprar para el hogar."
+    },
+    {
+      "id": 13,
+      "name": "Social",
+      "description": "planes, eventos y gente con la que quiero quedar."
+    },
+    {
+      "id": "cee2",
+      "name": "terror",
+      "description": "xdddddddddddd"
     }
   ]
 }
