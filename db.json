@@ -18,5 +18,17 @@
       "description": "",
       "completed": false
     }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Escuela",
+      "description": "notas reservadas para la escuela."
+    },
+    {
+      "id": 2,
+      "name": "Escuela",
+      "description": "notas reservadas para la escuela."
+    }
   ]
 }
